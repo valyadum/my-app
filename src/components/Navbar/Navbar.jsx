@@ -4,10 +4,10 @@ const Navbar = ()=>{
     return(
       <nav className={s.nav}>
           <div className={s.items}>
-          <a>Profile</a>
+          <a href='/profile'>Profile</a>
           </div>
           <div className={s.items}>
-          <a>Messages</a>
+          <a href='/dialogs'>Messages</a>
           </div>
           <div className={s.items}>
           <a>News</a>

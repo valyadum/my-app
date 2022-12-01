@@ -2,11 +2,12 @@ import Avatar from "./Avatar/Avatar";
 import MyPost from "./MyPost/MyPost";
 import s from "./Profile.module.css";
 
-const Profile = () => {
+
+const Profile = (props) => {
   return (
     <div className={s.content}>
       <Avatar />
-      <MyPost />
+      <MyPost posts={props.posts}/>
     </div>
   );
 };

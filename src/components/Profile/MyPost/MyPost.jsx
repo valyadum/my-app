@@ -3,7 +3,6 @@ import Post from "./Post/Post";
 
 
 const MyPost = (props) => {
-  
 
 let postElement = props.posts.map(p => <Post message={p.message} like={p.like} />)
 
